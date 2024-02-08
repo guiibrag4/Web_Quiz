@@ -82,11 +82,6 @@ const perguntas = [
   },
 ];
 
-/* Parece complicado, porém é bem simples. Acima, existe um Array e dentro
-desse array possui um, dois, três... Dez objetos. Para cada objeto abre um
-{} e dentro desse objeto, é criado um novo array, para dar a possibilidade
-de escolha das opções da pergunta. */
-
 const quiz = document.querySelector("#quiz");
 const template = document.querySelector("template");
 
@@ -103,5 +98,6 @@ for (const item of perguntas) {
 
   quizItem.querySelector("dl dt").remove();
 
+  //Coloca a pergunta na tela
   quiz.appendChild(quizItem);
 }
