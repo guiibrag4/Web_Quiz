@@ -1,1 +1,1 @@
-# Web_Quiz
+Um quiz feito utilizando html, css e javascript.
